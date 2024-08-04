@@ -33,7 +33,6 @@ body {
   padding: 20px;
   border-radius: 20px;
   border: 1px solid black;
-  max-width: 300px;
   background-color: var(--white);
   box-shadow: 6px 6px 0 black;
 }
@@ -91,4 +90,10 @@ body {
 
 .image-caption {
   font-size: 12px;
+}
+
+@media screen and (min-width: 768px) {
+  .card {
+    max-width: 300px;
+  }
 }
